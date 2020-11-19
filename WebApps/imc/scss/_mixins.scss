@@ -1,0 +1,19 @@
+@mixin background-danger {
+    background: rgb(247,70,115);
+    background: radial-gradient(circle, rgb(247, 105, 140) 0%, rgba(244,137,137,1) 94%);
+}
+
+@mixin background-warning {
+    background: rgb(240,235,80);
+    background: radial-gradient(circle, rgb(236, 232, 103) 0%, rgba(236,234,138,1) 94%);
+}
+
+@mixin background-success {
+    background: rgb(104,230,40);
+    background: radial-gradient(circle, rgb(144, 255, 89) 0%, rgba(185,210,180,1) 94%);
+}
+
+@mixin background-button {
+    background: rgb(0,105,244);
+    background: linear-gradient(90deg, rgba(0,105,244,1) 0%, rgba(151,187,235,1) 99%);
+}

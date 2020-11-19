@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap");
+.left_side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 70%;
+}
+
+.left_side__inputText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.left_side__inputText .input {
+  margin: 5px 0px;
+  padding: 10px 5px;
+  outline: none;
+  color: black;
+  border-radius: 10px;
+  border-style: none;
+}
+
+.left_side button {
+  padding: 15px 30px;
+  border-radius: 30px;
+  border-style: none;
+  background-color: #8093e9;
+  outline: none;
+}
+
+.left_side button:active {
+  background-color: #536ff0;
+}
+
+.wrapper {
+  height: 50vh;
+  width: 30vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 5vw;
+  overflow: hidden;
+}
+
+.wrapper .result {
+  height: 60%;
+  width: 30vw;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  border-radius: 20px;
+  position: relative;
+  left: -30vw;
+}
+
+.wrapper .result__title {
+  margin-bottom: 5vh;
+}
+
+.wrapper .result.slide {
+  -webkit-animation: slide 0.5s forwards;
+          animation: slide 0.5s forwards;
+}
+
+@-webkit-keyframes slide {
+  100% {
+    left: 0;
+  }
+}
+
+@keyframes slide {
+  100% {
+    left: 0;
+  }
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: white;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background: #68e628;
+  background: radial-gradient(circle, #90ff59 0%, #b9d2b4 94%);
+}
+
+.main {
+  background-color: #393a74;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 60vw;
+  height: 80vh;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10vh 10vw;
+  border-radius: 30px;
+}
+/*# sourceMappingURL=main.css.map */
