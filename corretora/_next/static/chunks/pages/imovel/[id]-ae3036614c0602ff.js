@@ -194,7 +194,7 @@
                 className: "esteira",
                 children: s.map(function (e, s) {
                   return (0,
-                  i.jsx)("div", { className: "frame ".concat(t === s && "frame-selected"), children: (0, i.jsx)(l(), { layout: "fill", alt: "image", src: "corretora/assets/imoveis/".concat(e) }) }, s);
+                  i.jsx)("div", { className: "frame ".concat(t === s && "frame-selected"), children: (0, i.jsx)(l(), { layout: "fill", alt: "image", src: "assets/imoveis/".concat(e) }) }, s);
                 }),
               }),
             }),
