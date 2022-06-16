@@ -178,7 +178,7 @@
           "div",
           {
             onClick: function () {
-              d().push("/imovel/".concat(n.id));
+              d().push("corretora/imovel/".concat(n.id, ".html"));
             },
             className: "card",
             children: (0, t.jsxs)("div", {
@@ -186,7 +186,7 @@
               children: [
                 (0, t.jsx)("div", {
                   style: {
-                    backgroundImage: 'url("./assets/imoveis/'.concat(
+                    backgroundImage: 'url("assets/imoveis/'.concat(
                       n.images[i],
                       '")'
                     ),
